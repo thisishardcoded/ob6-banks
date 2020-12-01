@@ -17,7 +17,12 @@ Make sure bank.py and the sysex file you want to process are in the same directo
 
 Use as follows:
 
-> python3 bank.py [filename: a sysex file of OB-6 patches in the correct format] [new bank number, a number in the range 0 to 4]
+$ python3 bank.py [filename: a sysex file of OB-6 patches in the correct format] [new bank number, a number in the range 0 to 4]
+
+eg: $ python3 mypresets.syx 3
+outputs:
+Success!
+For 'mypresets.syx': bank was 0 is now 3.
 
 All being well the script should reply with a success message noting the previous bank number and confirming the new bank number
 
