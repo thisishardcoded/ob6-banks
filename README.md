@@ -20,6 +20,7 @@ Use as follows:
 $ python3 bank.py [filename: a sysex file of OB-6 patches in the correct format] [new bank number, a number in the range 0 to 4]
 
 eg: $ python3 mypresets.syx 3
+
 outputs:
 
 Success!
